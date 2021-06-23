@@ -1,0 +1,244 @@
+/* Estilo principal*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    display: flex;  
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+html {
+    /* Clase 11 */
+    width: 1024px;
+    height: 678px;
+
+    background: #F3F3F3;
+}
+
+body {
+    background: #E5E5E5;
+}
+/*Estilos del header*/
+header{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;  
+
+    width: 1024px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pizzaLogo1, .pizzaLogo2{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between; 
+    align-content: space-around;
+
+    width: 234px;
+    height: 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.y{
+    color: white;
+}
+
+.front{
+    color: red;
+}
+
+.pizzaLogo1{
+    
+    justify-content: space-around; 
+    flex-grow: 0.03;
+}
+
+.nav1, .nav2{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between; 
+    align-content: center;
+
+    width: 284px;
+    height: 19px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+}
+.nav1{
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    flex-grow: 0.10;
+}
+
+.nav2{
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: flex-start;    
+    flex-grow: 0.05;
+
+    width: 78px;
+    height: 112px;
+}
+
+.pizzaLogo2{
+    
+    justify-content: space-around; 
+    flex-grow: 0.03;
+}
+
+/*Estilos del main*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{    
+    display: flex;  
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-content: center;    
+    justify-content: space-around;
+    width: 986px;
+    height: 350px;
+}
+
+.delivery {
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    width: 490px;
+    height: 350px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FC200C;
+    background-image: url("../img/delivery.jpg");
+    border-radius: 5px;
+}
+
+.deliveryText{    
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-grow: 0.1;
+    width: 350px;
+    height: 40px;
+}
+
+.compra{
+    color: white;
+}
+
+.podioPizzas{
+    display: flex;
+    width: 491px;
+    height: 350px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FC200C;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.podio{
+    display: flex;
+    align-items: center;
+    flex-grow: 0.5;
+
+    width: 171px;
+    height: 50px;
+}
+
+.pizzaFalling{
+    display: flex;
+    align-self: center;
+    flex-grow: 0.3;
+    width: 92px;
+    height: 129px;
+}
+
+.grupoTop{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center; 
+    align-items: flex-end;
+    align-content: center;
+    
+    
+    width: 173px;
+    height: 178px;
+}
+.pizzaTop{
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    height: 180px;
+
+}
+
+.pizzaTopText{  
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #222222;
+}
+
+.lista{
+    display: flex; 
+
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: flex-start;    
+    flex-grow: 0.2;
+    height: 180px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+/*Estilos del footer*/
+footer{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;  
+    width: 1024px;
+    height: 150px;
+    left: calc(50% - 1024px/2);
+    bottom: 8px;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
